@@ -4,7 +4,7 @@ import Hello from './hello.jsx';
 
 class Application extends React.Component {
   render() {
-    return <h1>Hello World!</h1>
+    return <Hello/>
   }
 }
 

@@ -83,11 +83,7 @@
 	  _createClass(Application, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(
-	        'h1',
-	        null,
-	        'Hello World!'
-	      );
+	      return _react2.default.createElement(_hello2.default, null);
 	    }
 	  }]);
 	
@@ -135,7 +131,11 @@
 	  _createClass(Hello, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(Hello, null);
+	      return _react2.default.createElement(
+	        'h1',
+	        null,
+	        'Hello World!'
+	      );
 	    }
 	  }]);
 	

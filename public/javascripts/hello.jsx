@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 
 class Hello extends React.Component {
   render() {
-    return <h1>hi</h1>
-    }
+    return <Hello/>
+  }
 }
 
-ReactDOM.render(<Hello/>, document.getElementById('hello'));
+
+module.exports = Hello;

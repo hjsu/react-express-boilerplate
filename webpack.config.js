@@ -1,11 +1,8 @@
 var webpack = require('webpack');
 var path = require('path');
 
-// var BUILD_DIR = path.resolve(__dirname, '/public/javascripts');
-// var APP_DIR = path.resolve(__dirname, 'src/client/app');
-
 var config = {
-  entry: path.join(__dirname + '/public/javascripts/application.jsx'),
+  entry: path.join(__dirname + '/src/components/application.jsx'),
   resolve: {
     extensions: ['', '.js', '.jsx']
   },

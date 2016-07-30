@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 
 var config = {
-  entry: path.join(__dirname + '/src/components/application.jsx'),
+  entry: path.join(__dirname + '/src/application.jsx'),
   resolve: {
     extensions: ['', '.js', '.jsx']
   },

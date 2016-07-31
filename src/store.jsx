@@ -1,8 +1,8 @@
 import { createStore, combineReducers } from 'redux';
-import clicks from './reducers/clicks';
+import click from './reducers/click';
 
 const appReducer = combineReducers({
-  clicks
+  click
 });
 
 let store = createStore(appReducer);

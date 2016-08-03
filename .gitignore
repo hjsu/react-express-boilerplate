@@ -3,4 +3,4 @@ node_modules/
 *.log
 *.map
 *.swo
-./public/javascripts/bundle.js
+./public/*

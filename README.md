@@ -1,5 +1,11 @@
+Installation:
+
 npm install
+npm run build
 
-npm start to run the app
+Run:
 
-npm run dev to run the webpack watch
+npm start, navigate to localhost:3000
+
+Watch for changes:
+npm run dev 
